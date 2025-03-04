@@ -1,6 +1,6 @@
 body {
-    font-family: 'Press start 2P', cursive;
-    font-size: 70%;
+    font-family: 'Press start 2P', cursive; /* Establece la fuente de la página */
+    font-size: 70%; /* Es el tamaño de fuente general */
     font-weight: bold;
     background: rgba(0, 0, 0, 0.026);
     color: white;
@@ -10,12 +10,12 @@ body {
 }
 
 
-.map { /* Imagen de fondo del mapa */
+.map { /* Estilo de la imagen de fondo del mapa */
     position: relative;
     width: 100vw;
     height: 100vh;
     background-size: cover;
-    background-image: url(img/kanto-map.jpeg);
+    background-image: url(img/kanto-map.jpeg); /* Imagen de fondo del mapa */
 }
 
 .pokedex { /* Pokedex en la esquina */
