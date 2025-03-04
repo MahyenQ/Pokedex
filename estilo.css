@@ -70,3 +70,31 @@ body {
     align-items: center;
     width: 300px;
 }
+
+/* Media queries */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2em; /* Tamaño de fuente más pequeño para tablets */
+    }
+
+    .pokedex {
+        width: 80%; /* Ajustar tamaño de la Pokedex */
+    }
+
+    .cyndaquil, .gen, .miew, .rae {
+        width: 80%; /* Ajustar tamaño de las imágenes */
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.5em; /* Tamaño de fuente más pequeño para móviles */
+    }
+
+    .pokedex {
+        width: 90%; /* Hacer la Pokedex más grande en móviles */
+    }
+
+    .cyndaquil, .gen, .miew, .rae {
+        width: 100%; /* Hacer las imágenes más grandes en móviles */
+    }
