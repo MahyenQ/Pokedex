@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyndaquil</title>
+    <title>Mew</title>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="icon" type="img/png" href="img/cyndaquil.png">
+    <link rel="icon" type="img/png" href="img/pokeball.png">
     <style>
         body {
             font-family: 'Press start 2P', cursive;
             text-align: center;
-            background-image: url(img/background.webp);
+            background-image: url(img/backgroundmew.png);
             position: relative;
             width: 100vw;
             height: 100vh;
@@ -20,31 +20,36 @@
         h1 {
             font-size: 2em;
         }
+
+        .first {
+            margin-right: 100px;
+            margin-left: 100px;
+            display: flex;
+            align-items: center;
+            background-color: rgba(240, 139, 225, 0.5);
+        }
         
+        .first img {
+            margin-right: 10px;
+        }
+
         .pokemon {
             width: 300px;
-            left: 100%;
-            margin-right: 10px;
-            background-color: rgba(0, 0, 0, 0.5);
+            margin-right: 2000px;
+            background-color: rgba(238, 105, 225, 0.5);
         }
 
         .tipo {
             font-weight: bold;
         }
 
-        .evolucion a {
-            color: black;
-        }
-
         .tipo span {
-            background-color: black;
-            color: white;
+            background-color: rgb(209, 56, 196);
+            color: rgb(22, 21, 21);
             padding: 5px;
             border-radius: 5px;
         }
-        .descripcion {
-            color: black;
-        }
+        
         .boton {
             background-color: red;
             color: black;
@@ -56,14 +61,14 @@
             font-weight: bold;
         }
 
-        .geng {
+        .cin {
             top: 100%;
             left: 0%;
             align-items: center;
             width: 200px;
         }
 
-        .mew {
+        .gen {
             top: 100%;
             left: 20%;
             align-items: center;
@@ -80,22 +85,18 @@
     </style>
 </head>
 <body>
-    <h1>Cyndaquil</h1>
-    <div class="first">
-        <div>
-            <p class="tipo">Tipo: <span>fuego</span></p>
-            <p class="evolucion"><a href="evolucioncin.html">Evolución</a></p>
-            <img src="img/cyndaquil.png" alt="Cyndaquil" class="pokemon">
-            <p class="descripcion">Descripción:</p>
-            <p>Cyndaquil se protege soltando llamas por el lomo. Cuando está enfadado, las llamas son fieras, pero, si está cansado, solo consigue echar algunas chispas que no llegan a cuajar en una completa combustión.</p>
+    <h1>Mew</h1>
+    <p class="tipo">Tipo: <span>psíquico</span></p>
+        <div class="first">
+            <img src="img/mew.png" alt="mew" class="pokemon"><p>Mew es un Pokémon único que no evoluciona, pero es el ancestro de muchos otros Pokémon. Se le relaciona con Mewtwo, que fue creado a partir de su ADN y es más poderoso. Mew es conocido por su versatilidad, ya que puede aprender casi todos los movimientos.</p>
         </div>
 
-        <a href="gengar.html">
-            <img src="img/gengar.png" alt="Gengar" class="geng">
+        <a href="cindaquil.html">
+            <img src="img/cyndaquil.png" alt="cin" class="cin">
         </a>
 
-        <a href="mew.html">
-            <img src="img/mew.png" alt="mew" class="mew">
+        <a href="gengar.html">
+            <img src="img/gengar.png" alt="mew" class="gen">
         </a>
 
         <a href="rayquaza.html">

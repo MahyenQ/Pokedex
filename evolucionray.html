@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyndaquil</title>
+    <title>Rayquaza</title>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="icon" type="img/png" href="img/cyndaquil.png">
+    <link rel="icon" type="img/png" href="img/pokeball.png">
     <style>
         body {
             font-family: 'Press start 2P', cursive;
             text-align: center;
-            background-image: url(img/background.webp);
+            background-image: url(img/backgroundray.png);
             position: relative;
             width: 100vw;
             height: 100vh;
@@ -20,31 +20,36 @@
         h1 {
             font-size: 2em;
         }
+
+        .first {
+            margin-right: 100px;
+            margin-left: 100px;
+            display: flex;
+            align-items: center;
+            background-color: rgba(155, 238, 144, 0.5);
+        }
         
+        .first img {
+            margin-right: 10px;
+        }
+
         .pokemon {
             width: 300px;
-            left: 100%;
-            margin-right: 10px;
-            background-color: rgba(0, 0, 0, 0.5);
+            margin-right: 2000px;
+            background-color: rgba(100, 232, 73, 0.5);
         }
 
         .tipo {
             font-weight: bold;
         }
 
-        .evolucion a {
-            color: black;
-        }
-
         .tipo span {
-            background-color: black;
-            color: white;
+            background-color: rgb(68, 198, 42);
+            color: rgb(22, 21, 21);
             padding: 5px;
             border-radius: 5px;
         }
-        .descripcion {
-            color: black;
-        }
+        
         .boton {
             background-color: red;
             color: black;
@@ -70,7 +75,7 @@
             width: 200px;
         }
 
-        .ray {
+        .cin {
             top: 100%;
             left: 30%;
             align-items: center;
@@ -78,16 +83,13 @@
         }
 
     </style>
+
 </head>
 <body>
-    <h1>Cyndaquil</h1>
-    <div class="first">
-        <div>
-            <p class="tipo">Tipo: <span>fuego</span></p>
-            <p class="evolucion"><a href="evolucioncin.html">Evolución</a></p>
-            <img src="img/cyndaquil.png" alt="Cyndaquil" class="pokemon">
-            <p class="descripcion">Descripción:</p>
-            <p>Cyndaquil se protege soltando llamas por el lomo. Cuando está enfadado, las llamas son fieras, pero, si está cansado, solo consigue echar algunas chispas que no llegan a cuajar en una completa combustión.</p>
+    <h1>Rayquaza</h1>
+    <p class="tipo">Tipo: <span>Dragón</span></p>
+        <div class="first">
+            <img src="img/rayquaza.png" alt="ray" class="pokemon"><p>Rayquaza es un Pokémon legendario que es conocido por su gran poder y su capacidad para controlar el clima. Se dice que reside en la estratosfera y aparece durante conflictos entre Kyogre y Groudon. Rayquaza también puede Mega Evolucionar, lo que aumenta aún más su fuerza y habilidades en combate.</p>
         </div>
 
         <a href="gengar.html">
@@ -98,8 +100,8 @@
             <img src="img/mew.png" alt="mew" class="mew">
         </a>
 
-        <a href="rayquaza.html">
-            <img src="img/rayquaza.png" alt="rayquaza" class="ray">
+        <a href="cindaquil.html">
+            <img src="img/cyndaquil.png" alt="cin" class="cin">
         </a>
         <br>
         <a href="index.html" class="boton">Volver a inicio</a>
